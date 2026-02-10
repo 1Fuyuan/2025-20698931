@@ -1,0 +1,5 @@
+git show - show objects 
+git log - show commit history 
+git checkout - switch branches/restore files 
+git init - create a repository 
+git reset - move HEAD/unstage changes 
