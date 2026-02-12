@@ -1,0 +1,19 @@
+# MSVC build artifacts
+*.obj
+*.exe
+*.ilk
+*.pdb
+*.idb
+
+# Visual Studio folders/files
+.vs/
+*.user
+*.suo
+*.VC.db
+*.VC.VC.opendb
+
+# Common build folders
+Debug/
+Release/
+x64/
+build/
