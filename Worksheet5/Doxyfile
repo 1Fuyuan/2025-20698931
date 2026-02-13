@@ -1,0 +1,57 @@
+#---------------------------------------------------------------
+# Minimal Doxygen config for coursework / worksheet
+# Generated/edited by ChatGPT
+#---------------------------------------------------------------
+
+DOXYFILE_ENCODING      = UTF-8
+
+PROJECT_NAME           = "Worksheet5"
+PROJECT_NUMBER         =
+PROJECT_BRIEF          =
+
+# Output language
+OUTPUT_LANGUAGE        = English
+
+# Where to put generated docs (blank = current directory)
+OUTPUT_DIRECTORY       =
+
+# Input: current folder
+INPUT                  = .
+RECURSIVE              = YES
+
+# What files to scan
+FILE_PATTERNS          = *.c *.cc *.cxx *.cpp *.h *.hh *.hxx *.hpp *.inl *.md *.dox
+
+# Exclude common build/output folders (optional but recommended)
+EXCLUDE_PATTERNS       = */build/* */Build/* */out/* */Out/* */.git/* */.vscode/* */.idea/*
+
+# Extract settings (this fixes your broken line)
+EXTRACT_ALL            = YES
+EXTRACT_PRIVATE        = NO
+EXTRACT_STATIC         = NO
+
+# If you want undocumented members hidden, set this to YES (optional)
+HIDE_UNDOC_MEMBERS     = NO
+HIDE_UNDOC_CLASSES     = NO
+
+# Warnings
+QUIET                  = NO
+WARNINGS               = YES
+WARN_IF_UNDOCUMENTED   = NO
+WARN_IF_DOC_ERROR      = YES
+
+# Source browsing (optional)
+SOURCE_BROWSER         = NO
+INLINE_SOURCES         = NO
+
+# HTML output
+GENERATE_HTML          = YES
+HTML_OUTPUT            = html
+GENERATE_TREEVIEW      = YES
+SEARCHENGINE           = YES
+
+# Turn off LaTeX to avoid extra files (recommended for worksheet)
+GENERATE_LATEX         = NO
+
+# Dot/Graphviz (keep off unless you installed graphviz)
+HAVE_DOT               = NO

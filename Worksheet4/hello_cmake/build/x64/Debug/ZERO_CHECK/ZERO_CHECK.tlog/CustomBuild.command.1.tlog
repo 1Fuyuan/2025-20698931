@@ -1,0 +1,10 @@
+^C:\USERS\ADMINISTRATOR\WS2\WORKSHEET4\HELLO_CMAKE\BUILD\CMAKEFILES\1C896BD0604404645C2A80BB8D1E4C5E\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Administrator/WS2/Worksheet4/hello_cmake -BC:/Users/Administrator/WS2/Worksheet4/hello_cmake/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/Administrator/WS2/Worksheet4/hello_cmake/build/hello.slnx
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

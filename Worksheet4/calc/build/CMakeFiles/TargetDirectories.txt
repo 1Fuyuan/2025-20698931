@@ -1,0 +1,4 @@
+C:/Users/Administrator/WS2/Worksheet4/calc/build/CMakeFiles/maths.dir
+C:/Users/Administrator/WS2/Worksheet4/calc/build/CMakeFiles/calc.dir
+C:/Users/Administrator/WS2/Worksheet4/calc/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/Administrator/WS2/Worksheet4/calc/build/CMakeFiles/ZERO_CHECK.dir
