@@ -1,0 +1,34 @@
+# Build folders
+build/
+cmake-build-*/
+Desktop_Qt_*_Debug/
+Desktop_Qt_*_Release/
+
+# Qt Creator
+.qtcreator/
+*.user
+*.autosave
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+compile_commands.json
+Makefile
+*.ninja
+.ninja_*
+.ninja_deps
+.ninja_log
+
+# Auto-generated Qt files
+*_autogen/
+.ui_*.h
+moc_*.cpp
+qrc_*.cpp
+
+# Binary files
+*.exe
+*.obj
+*.o
+*.dll
+*.lib
